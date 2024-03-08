@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* Gradients */
+    --blue-gradient: linear-gradient(270deg, #5B5BFF -17.65%, #44C4ED 95.38%);
+    --green-gradient: linear-gradient(270deg, #4A9D2F -17.65%, #AEFCC9 95.38%);
+    --yellow-gradient: linear-gradient(270deg, #F0C52B -17.65%, #F8FFA9 95.38%);
+    --orange-gradient: linear-gradient(270deg, #EE8132 -17.65%, #FFF3B5 95.38%);
+    --purple-gradient: linear-gradient(270deg, #5B5BFF -17.65%, #DECAF2 95.38%);
+
+    /* Colors */
+    --blue: 202 100% 43%; /* #008DDD */
+    --green: 105 54% 40%; /* #4A9D2F */
+    --purple: 240 100% 68%; /* #5B5BFF */
+    --orange: 25 85% 56%; /* #EE8132 */
+    --yellow: 40 70% 47%; /* #CC9324 */
+  }
+}
