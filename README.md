@@ -1,38 +1,32 @@
-# Welcome to Remix!
+# Radial Progress Indicator
 
-- [Remix Docs](https://remix.run/docs)
+<h1 align="center">
+    <img src="https://github.com/danilodecanini/happy-nlw/assets/6164326/31f3a38b-c234-4816-9574-ff52b1582c52" width="580px" />
+</h1>
 
-## Development
+## How to run the project
 
-From your terminal:
+To clone and run this application, you'll need [Git](https://git-scm.com) _(only when using Git CLI)_.
 
-```sh
-npm run dev
+From your command line, clone the repository with the following command:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/danilodecanini/radial-progress-indicator.git
 ```
 
-This starts your app in development mode, rebuilding assets on file changes.
+To run the application:
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
+```bash
+# Go into directory radial-progress-indicator/
+$ cd radial-progress-indicator
+# Install dependencies
+$ npm install
+# Run the application
+$ npm run dev
 ```
 
-Then run the app in production mode:
+Remix will start building and serve a http link, click on that link.
+The link will open a new tab on your browser with the application started.
 
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+At `app/routes/_index.tsx` you can change the returned values from the loader, and change the component behavior (line 18)
